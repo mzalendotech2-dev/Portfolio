@@ -1,0 +1,412 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Elijah Macharia — Software Engineer building modern, responsive and secure web applications.">
+  <meta name="theme-color" content="#080d1b">
+
+  <title>Elijah Macharia | Software Engineer</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <header class="header">
+    <nav class="navbar container" aria-label="Main navigation">
+      <a class="logo" href="#home" aria-label="Go to home">
+        EM<span>.</span>
+      </a>
+
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        aria-label="Open navigation menu"
+        aria-expanded="false"
+        aria-controls="nav-links"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link nav-cta">Let's Talk <span>↗</span></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="availability">
+            <span class="status-dot"></span>
+            Software Engineer · Open to Opportunities
+          </div>
+
+          <p class="eyebrow">HELLO, I'M ELIJAH MACHARIA</p>
+
+          <h1>
+            Building digital
+            <span class="gradient-text">experiences</span>
+            that make a difference.
+          </h1>
+
+          <p class="hero-description">
+            I'm a Software Engineer passionate about building useful,
+            responsive web applications and exploring cybersecurity
+            to make digital experiences more secure.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">
+              Explore My Work <span>↗</span>
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+              Get In Touch
+            </a>
+          </div>
+
+          <div class="hero-socials">
+            <span>CONNECT WITH ME</span>
+            <a href="https://github.com/Elijah1123"
+               target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+            <a href="https://www.linkedin.com/"
+               target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-label="Developer introduction">
+          <div class="orbit orbit-one"></div>
+          <div class="orbit orbit-two"></div>
+
+          <div class="code-card">
+            <div class="code-header">
+              <div class="window-dots">
+                <span></span><span></span><span></span>
+              </div>
+              <span>developer.js</span>
+              <span class="code-menu">•••</span>
+            </div>
+
+            <div class="code-body">
+              <p><span class="line-number">01</span> <span class="purple">const</span> developer = {</p>
+              <p><span class="line-number">02</span> &nbsp; name: <span class="green">"Elijah"</span>,</p>
+              <p><span class="line-number">03</span> &nbsp; role: <span class="green">"Software Engineer"</span>,</p>
+              <p><span class="line-number">04</span> &nbsp; frontend: [</p>
+              <p><span class="line-number">05</span> &nbsp;&nbsp; <span class="green">"HTML"</span>, <span class="green">"CSS"</span>,</p>
+              <p><span class="line-number">06</span> &nbsp;&nbsp; <span class="green">"JavaScript"</span>, <span class="green">"React"</span></p>
+              <p><span class="line-number">07</span> &nbsp; ],</p>
+              <p><span class="line-number">08</span> &nbsp; focus: <span class="green">"Secure Web"</span>,</p>
+              <p><span class="line-number">09</span> &nbsp; learning: <span class="orange">true</span></p>
+              <p><span class="line-number">10</span> };</p>
+              <p class="code-comment">// Always building. Always learning.</p>
+            </div>
+          </div>
+
+          <div class="floating-card floating-top">
+            <span class="floating-icon">⌘</span>
+            <div>
+              <strong>Clean Code</strong>
+              <small>Built with purpose</small>
+            </div>
+          </div>
+
+          <div class="floating-card floating-bottom">
+            <span class="floating-icon shield">◇</span>
+            <div>
+              <strong>Security Mindset</strong>
+              <small>Secure by design</small>
+            </div>
+          </div>
+
+          <div class="visual-glow"></div>
+        </div>
+      </div>
+
+      <div class="container tech-strip">
+        <span>MY TOOLKIT</span>
+        <div>HTML5</div>
+        <div>CSS3</div>
+        <div>JavaScript</div>
+        <div>React</div>
+        <div>TypeScript</div>
+        <div>Python</div>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">A LITTLE ABOUT ME</p>
+          <h2>Engineering with <span class="gradient-text">purpose.</span></h2>
+          <p>Combining creativity, logic and continuous learning to solve problems.</p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-card about-main">
+            <span class="card-label">01 / WHO I AM</span>
+            <h3>Turning ideas into practical digital solutions.</h3>
+            <p>
+              I'm a Software Engineer interested in developing modern web
+              applications, building useful digital products and creating
+              intuitive user experiences.
+            </p>
+            <p>
+              I'm also developing my cybersecurity knowledge, with a focus
+              on understanding vulnerabilities, strengthening application
+              security and building safer systems.
+            </p>
+          </div>
+
+          <div class="about-card">
+            <span class="about-icon">⌘</span>
+            <h3>Problem Solver</h3>
+            <p>I break complex requirements into manageable, testable features.</p>
+          </div>
+
+          <div class="about-card">
+            <span class="about-icon">◇</span>
+            <h3>Security Conscious</h3>
+            <p>I value secure coding, data protection and responsible testing.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section class="section section-alt" id="skills">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">MY TECHNICAL TOOLKIT</p>
+          <h2>Skills I bring to the <span class="gradient-text">table.</span></h2>
+          <p>Technologies I use and areas I'm strengthening through practical work.</p>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-card">
+            <div class="skill-card-header">
+              <span class="skill-icon">&lt;/&gt;</span>
+              <span class="skill-number">01</span>
+            </div>
+            <h3>Frontend Development</h3>
+            <p>Building responsive, accessible and interactive user interfaces.</p>
+            <div class="tags">
+              <span>HTML5</span><span>CSS3</span><span>JavaScript</span>
+              <span>React</span><span>TypeScript</span><span>Tailwind CSS</span>
+            </div>
+          </article>
+
+          <article class="skill-card">
+            <div class="skill-card-header">
+              <span class="skill-icon">{ }</span>
+              <span class="skill-number">02</span>
+            </div>
+            <h3>Backend Development</h3>
+            <p>Creating APIs, application logic and reliable server-side systems.</p>
+            <div class="tags">
+              <span>Python</span><span>Flask</span><span>Node.js</span>
+              <span>Express</span><span>REST APIs</span>
+            </div>
+          </article>
+
+          <article class="skill-card">
+            <div class="skill-card-header">
+              <span class="skill-icon">▤</span>
+              <span class="skill-number">03</span>
+            </div>
+            <h3>Databases & Tools</h3>
+            <p>Managing application data and collaborating through development tools.</p>
+            <div class="tags">
+              <span>PostgreSQL</span><span>SQLite</span>
+              <span>SQLAlchemy</span><span>Git</span><span>Postman</span>
+            </div>
+          </article>
+
+          <article class="skill-card">
+            <div class="skill-card-header">
+              <span class="skill-icon">◇</span>
+              <span class="skill-number">04</span>
+            </div>
+            <h3>Cybersecurity</h3>
+            <p>Developing practical skills in defensive security and application protection.</p>
+            <div class="tags">
+              <span>Secure Coding</span><span>Linux</span>
+              <span>Security Testing</span><span>OWASP</span>
+            </div>
+            <p class="skill-note">Practical security experience is growing.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">SELECTED WORK</p>
+          <h2>Projects built to <span class="gradient-text">solve problems.</span></h2>
+          <p>A selection of projects and practical work.</p>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-art project-art-one">
+              <span class="project-art-label">01 / TRAVEL TECH</span>
+              <div class="project-mock">
+                <span class="mock-logo">MLIMA.</span>
+                <div class="mock-landscape">
+                  <span></span><span></span><span></span>
+                </div>
+                <div class="mock-lines"><i></i><i></i><i></i></div>
+              </div>
+            </div>
+            <div class="project-info">
+              <div class="project-type">WEB APPLICATION</div>
+              <h3>Mlima Adventures</h3>
+              <p>
+                A travel booking platform designed to help users explore
+                packages, manage bookings and use an integrated payment flow.
+              </p>
+              <div class="tags">
+                <span>TypeScript</span><span>Flask</span><span>PostgreSQL</span>
+              </div>
+              <a class="project-link"
+                 href="https://mlimaadventures.com"
+                 target="_blank" rel="noopener noreferrer">
+                View Project <span>↗</span>
+              </a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-art project-art-two">
+              <span class="project-art-label">02 / BOOKING TECH</span>
+              <div class="booking-mock">
+                <div class="booking-top"><span></span><span></span><span></span></div>
+                <div class="booking-image"></div>
+                <div class="booking-lines"><i></i><i></i></div>
+                <div class="booking-button"></div>
+              </div>
+            </div>
+            <div class="project-info">
+              <div class="project-type">BOOKING PLATFORM</div>
+              <h3>Safiri Kenya Bookings</h3>
+              <p>
+                A booking application concept combining accommodation
+                discovery, booking workflows and map-based location features.
+              </p>
+              <div class="tags">
+                <span>React</span><span>Flask</span><span>PostgreSQL</span>
+              </div>
+              <a class="project-link"
+                 href="https://github.com/Elijah1123"
+                 target="_blank" rel="noopener noreferrer">
+                Explore Code <span>↗</span>
+              </a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-art project-art-three">
+              <span class="project-art-label">03 / SECURITY</span>
+              <div class="security-mock">
+                <div class="security-shield">◇</div>
+                <span>SECURITY LAB</span>
+                <div class="security-bars"><i></i><i></i><i></i></div>
+              </div>
+            </div>
+            <div class="project-info">
+              <div class="project-type">LEARNING PROJECT</div>
+              <h3>Web Security Lab</h3>
+              <p>
+                A planned lab for learning secure coding, validating
+                application inputs and documenting defensive security tests.
+              </p>
+              <div class="tags">
+                <span>JavaScript</span><span>Python</span><span>OWASP</span>
+              </div>
+              <span class="project-status">
+                <span class="status-dot"></span> In Progress
+              </span>
+            </div>
+          </article>
+        </div>
+
+        <div class="projects-footer">
+          <p>More projects and experiments are on GitHub.</p>
+          <a class="btn btn-secondary"
+             href="https://github.com/Elijah1123"
+             target="_blank" rel="noopener noreferrer">
+            Visit GitHub ↗
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="section section-alt" id="contact">
+      <div class="container contact-grid">
+        <div class="contact-copy">
+          <p class="eyebrow">LET'S CONNECT</p>
+          <h2>Have an idea? Let's make it <span class="gradient-text">happen.</span></h2>
+          <p>
+            I'm interested in software engineering opportunities,
+            meaningful projects and connecting with people who enjoy
+            solving problems through technology.
+          </p>
+          <a class="email-link" href="mailto:mzalendotech2@gmail.com">
+            mzalendotech2@gmail.com ↗
+          </a>
+        </div>
+
+        <form class="contact-form" id="contact-form">
+          <label for="name">Your name</label>
+          <input id="name" name="name" type="text"
+                 placeholder="Enter your name" autocomplete="name" required>
+
+          <label for="email">Email address</label>
+          <input id="email" name="email" type="email"
+                 placeholder="you@example.com" autocomplete="email" required>
+
+          <label for="message">Your message</label>
+          <textarea id="message" name="message" rows="5"
+                    placeholder="Tell me about your idea..." required></textarea>
+
+          <button class="btn btn-primary submit-btn" type="submit">
+            Prepare Email <span>↗</span>
+          </button>
+
+          <p class="form-note" id="form-note" aria-live="polite">
+            This form opens your email application; it does not send messages directly.
+          </p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a class="logo" href="#home">EM<span>.</span></a>
+      <p>Designed & built with care by Elijah Macharia.</p>
+      <a href="#home" class="back-top">Back to top ↑</a>
+    </div>
+    <div class="copyright">
+      © <span id="year"></span> Elijah Macharia. All rights reserved.
+    </div>
+  </footer>
+</body>
+</html>
